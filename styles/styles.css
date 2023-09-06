@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Quicksand:wght@400;500&family=Zeyada&display=swap');
+
+html,
+body {
+  min-height: 100vh;
+  font-size: 20px;
+  color: #f2ab39;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+.image-section {
+  width: 35vw;
+
+  min-height: 100vh;
+  background: center / cover no-repeat
+    url(../images/mahyar-motebassem-HF3S9eLbmuA-unsplash.jpg);
+}
+
+h1 {
+  font-family: 'Zeyada', cursive;
+  font-size: 6vh;
+  font-weight: bolder;
+  text-transform: uppercase;
+  /* margin-top: 0.7rem; */
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.form-section {
+  background-color: #370d00;
+  width: calc(100vw - 35vw);
+  padding: 10px;
+}
+
+.form-container {
+  margin-top: 15px;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  color: #f2ab39;
+}
+
+legend {
+  background-color: #f2ab39;
+  color: #370d00;
+  padding: 5px 10px;
+  font-weight: 800;
+  border-radius: 3px;
+}
+
+hr {
+  background-color: #f2ab39;
+  height: 0.2rem;
+  border: none;
+}
+
+small {
+  font-family: 'Caveat', cursive;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.form-container form {
+  width: 75%;
+}
+
+form > div {
+  margin: 0.2rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select {
+  width: 100%;
+  margin: 6px;
+  font-size: 0.9rem;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type='password'] {
+  font-size: 0.7rem;
+}
+
+input[type='text']::placeholder,
+input[type='email']::placeholder {
+  text-align: center;
+}
+
+input[type='text']:focus,
+select:focus {
+  outline-style: solid;
+  outline-color: #f2ab39;
+  outline-width: 2px;
+}
+
+#meal {
+  text-align: center;
+}
+
+/* select {
+  padding: 0.4%; */
+/* } */
+
+.meal-order-section {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.submit-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit-div button {
+  width: 35%;
+  margin-top: 5px;
+  background-color: #f2ab39;
+  color: #370d00;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+  padding: 10px;
+}
+
+.submit-div a {
+  color: #f2ab39;
+}

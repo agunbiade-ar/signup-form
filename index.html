@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./styles/meyer_reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="image-section"></section>
+      <section class="form-section">
+        <div class="header">
+          <h1>Guilermo's Breakfast House</h1>
+          <h2>The place you'll want to be every morning</h2>
+          <!-- <hr /> -->
+        </div>
+
+        <div class="form-container">
+          <form>
+            <fieldset>
+              <legend>
+                <small>
+                  Sign up today and get a free breakfast tomorrow
+                  morning!</small
+                >
+              </legend>
+              <hr />
+              <div class="form-name-section">
+                <div>
+                  <label for="first_name">First Name</label>
+                  <input
+                    type="text"
+                    name="first_name"
+                    id="first_name"
+                    placeholder="Given name"
+                  />
+                </div>
+                <div>
+                  <label for="last_name">Last Name</label>
+                  <input
+                    type="text"
+                    name="last_name"
+                    id="last_name"
+                    placeholder="Your Surname"
+                  />
+                </div>
+              </div>
+
+              <div class="form-contact-section">
+                <div>
+                  <label for="phone">Contact Number</label>
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="+23481-361-56501"
+                  />
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="example@gmail.com"
+                  />
+                </div>
+              </div>
+
+              <div class="meal-order-section">
+                <label for="meal">Select a meal:</label>
+                <select name="meal" id="meal">
+                  <option value="pancakes" default>Pancakes & Honey</option>
+                  <option value="lipton_chocolate_bread">
+                    Lipton & Chocolate Bread
+                  </option>
+                  <option value="noodles_egg">Noodles & Egg</option>
+                  <option value="akara_pap">Akara & Pap</option>
+                </select>
+              </div>
+
+              <div class="form-password-section">
+                <small><em>Note: passwords should match</em></small>
+                <div>
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" />
+                </div>
+                <div>
+                  <label for="confirm_password">Confirm Password</label>
+                  <input
+                    type="password"
+                    name="confirm_password"
+                    id="confirm_password"
+                  />
+                </div>
+              </div>
+
+              <div class="submit-div">
+                <button type="submit">Create Account</button>
+                <small>Already have an account? <a href="#">Log In</a></small>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
